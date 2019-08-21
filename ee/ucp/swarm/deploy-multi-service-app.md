@@ -25,7 +25,7 @@ services:
     ports:
       - "6379"
     networks:
-      - frontend
+      - backend
 
   # A PostgreSQL database for persistent storage
   db:
